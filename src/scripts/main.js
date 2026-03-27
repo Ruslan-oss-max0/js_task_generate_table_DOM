@@ -366,7 +366,7 @@ for (const person of people) {
   const tableDataCentury = document.createElement('td');
 
   tableDataName.textContent = person.name;
-  tableDataSex.textContent = person.sex === 'm' ? 'Male' : 'Female';
+  tableDataSex.textContent = person.sex;
   tableDataBorn.textContent = person.born;
   tableDataDied.textContent = person.died;
   tableDataAge.textContent = person.died - person.born;
